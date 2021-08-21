@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Orbitron;
+  src: url(Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: black;
+  color: limegreen;
+  font-family: Orbitron;
+  font-size: 45px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: limegreen;
+  text-align: center;
+}
