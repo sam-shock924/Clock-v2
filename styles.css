@@ -1,15 +1,23 @@
-/* @font-face {
-  font-family: Orbitron;
-  src: url(Orbitron/Orbitron-VariableFont_wght.ttf);
-} */
+@font-face {
+	font-family: Orbitron;
+	src: url(Orbitron/Orbitron-VariableFont_wght.ttf);
+}
 
 body {
-  background-color: black;
-  color: limegreen;
-  font-family: Orbitron;
-  font-size: 45px;
-  border-style: solid;
-  border-radius: 5px;
-  border-color: limegreen;
-  text-align: center;
+	background-color: #474747;
+	color: limegreen;
+	font-family: Orbitron;
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 5px 5px 10px black, 0 0 1.5em limegreen, 0 0 0.5em limegreen;
+}
+
+.container {
+	margin: auto;
+	width: 70%;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: black;
+	border-width: 15px;
+	box-shadow: 0 0 10px black;
 }
